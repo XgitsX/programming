@@ -53,7 +53,7 @@ int main(){
 						ввод: 12312
 						вывод: длина строки равна 5 +
 					*/
-				char* s = new char[80];
+				char* s = new char[255];
 				cout << "Введите строку: ";
 				cin.getline(s, 255);
 				cout << "Длина строки равна " << length(s) << endl;
